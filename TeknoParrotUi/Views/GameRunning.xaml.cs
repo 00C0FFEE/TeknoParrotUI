@@ -542,6 +542,10 @@ namespace TeknoParrotUi.Views
                         var englishHack = (_gameProfile.ConfigValues.Any(x => x.FieldName == "EnglishHack" && x.FieldValue == "1"));
                         extra = $"-SEEKFREELOADINGPCCONSOLE -LANGUAGE={(englishHack ? "ENG" : "JPN")} -NOHOMEDIR -NOSPLASH -NOWRITE -VSYNC -APM -PCTOC -AUTH ";
                         break;
+                //  case EmulationProfile.FNFDrift:
+                //       short.TryParse(machineID.FieldValue, out var _machineID);
+                //       extra = "-mid_0";
+                //       break;
                 }
 
                 string gameArguments;

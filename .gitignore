@@ -318,3 +318,5 @@ ASALocalRun/
 *.binlog
 
 TeknoParrotUi/CurrentCommit.txt
+TeknoParrotUi.Common/Descriptions/FNFSB2.xml
+TeknoParrotUi.Common/GameProfiles/FNFSB2.xml
